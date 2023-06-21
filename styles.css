@@ -1,0 +1,146 @@
+    body, h1, h2, p, ul, li, form, input, textarea, button {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: black;
+      color: #333333;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #ffffff;
+      padding: 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333333;
+      font-weight: bold;
+    }
+
+    /* Hero section styles */
+    #hero {
+      background-image: url('drone.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: chocolate;
+    }
+
+    #hero h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    #hero p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #ff5500;
+      color: #ffffff;
+      font-size: 16px;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #ff3300;
+    }
+
+    #about {
+      background-color: #ffffff;
+      padding: 40px;
+    }
+
+    #about h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    #services {
+      background-color: #f4f4f4;
+      padding: 40px;
+    }
+
+    #services h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    #services ul {
+      list-style: none;
+    }
+
+    #services li {
+      margin-bottom: 10px;
+    }
+
+    #contact {
+      background-color: #ffffff;
+      padding: 40px;
+    }
+
+    #contact h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    form label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 4px;
+      border: 1px solid #cccccc;
+      margin-bottom: 20px;
+    }
+
+    form button {
+      padding: 12px 24px;
+      background-color: #ff5500;
+      color: #ffffff;
+      font-size: 16px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    form button:hover {
+      background-color: #ff3300;
+    }
+
+    footer {
+      background-color: #333333;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
